@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     //check if placeholder exists
     if (footerPlaceholder) {
         //get the footer file
-        fetch("assets/footer.html")
+        fetch("/pamylka/assets/footer.html")
             //store the fetched file data in response
             .then((response) => {
                 //if response is not ok, throw an error

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const headerElement = document.querySelector("header");
   
   if (headerElement) { //check is <header> exits
-    fetch("assets/header.html") //fetch() loads the html file with the header
+    fetch("/pamylka/assets/header.html") //fetch() loads the html file with the header
 
       //ckech if the header is loaded successfully
       .then((response) => {
