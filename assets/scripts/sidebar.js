@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const sidebarPlaceholder = document.getElementById("sidebar-placeholder");
   
   if (sidebarPlaceholder) {
-    fetch("/assets/sidebar.html")
+    fetch("assets/sidebar.html")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Sidebar file not found");
