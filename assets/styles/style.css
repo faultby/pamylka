@@ -427,7 +427,7 @@ article h3 {
     flex-direction: column;
     justify-content: center;
     max-width: 700px;
-    margin: 0 auto;          /* Center within the footer */
+    margin: auto auto;          /* Center within the footer */
     line-height: 1.4;
     padding: 0 20px;
   }
