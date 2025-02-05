@@ -1,0 +1,19 @@
+<section class="articles">
+    <h2>АРТЫКУЛЫ</h2>
+    <div class="article-grid">
+        {% for article in site.articles %}
+        <div class="article-card">
+            <img src="{{ article.cover }}" alt="вокладка {{ article.title }}">
+            <a href="{{ article.url }}">
+                <h3>{{ article.title }}</h3>
+            </a>
+            <p class="meta">
+                <span class="author">{{ article.author }}</span> | 
+                <span class="category">{{ article.category_be }}</span> 
+            </p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+    

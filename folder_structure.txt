@@ -1,0 +1,137 @@
+Folder PATH listing for volume Windows
+Volume serial number is 0C6D-D489
+C:.
+│   about.html
+│   bison.html
+│   folder_structure.txt
+│   Gemfile.rb
+│   index.html
+│   LICENSE
+│   _config.yml
+│   
+├───assets
+│   │   article-template.html
+│   │   footer.html
+│   │   header.html
+│   │   sidebar.html
+│   │   
+│   ├───images
+│   │   ├───covers
+│   │   │       article1-cover.png
+│   │   │       article2-cover.png
+│   │   │       article3-cover.png
+│   │   │       article4-cover.png
+│   │   │       article5-cover.png
+│   │   │       article6-cover.png
+│   │   │       article7-cover.png
+│   │   │       article8-cover.png
+│   │   │       
+│   │   ├───icons
+│   │   │   │   by.svg
+│   │   │   │   cc.svg
+│   │   │   │   github-icon-beige.svg
+│   │   │   │   instagram-icon-beige.svg
+│   │   │   │   mastodon-icon-beige.svg
+│   │   │   │   sa.svg
+│   │   │   │   x-icon-beige.svg
+│   │   │   │   
+│   │   │   └───SVG
+│   │   └───logos
+│   │           banner-about.png
+│   │           banner-buymeacoffee.webp
+│   │           bison-higgs-banner.png
+│   │           CC-BY-SA_icon_orange.svg.png
+│   │           pamylka-logo-bright.gif
+│   │           pamylka-logo-dark.gif
+│   │           
+│   ├───scripts
+│   │       footer.js
+│   │       header.js
+│   │       script.js
+│   │       sidebar.js
+│   │       
+│   └───styles
+│           style.css
+│           
+├───issues
+│   ├───issue-1
+│   │   └───images
+│   │           issue-1-cover.jpg
+│   │           
+│   ├───issue-2
+│   │   └───images
+│   │           issue-2-cover.jpg
+│   │           
+│   ├───issue-3
+│   │   └───images
+│   │           issue-3-cover.jpg
+│   │           
+│   ├───issue-4
+│   │   ├───article-4
+│   │   │   │   index.html
+│   │   │   │   
+│   │   │   └───images
+│   │   │           trubac-i-paznannie-cover.png
+│   │   │           trubac-i-paznannie-fig-1.jpg
+│   │   │           trubac-i-paznannie-fig-2.jpg
+│   │   │           trubac-i-paznannie-fig-3.jpg
+│   │   │           trubac-i-paznannie-fig-4.jpg
+│   │   │           trubac-i-paznannie-fig-5.jpg
+│   │   │           trubac-i-paznannie-fig-6.jpeg
+│   │   │           trubac-i-paznannie-fig-7.jpeg
+│   │   │           trubac-i-paznannie-fig-7b.jpeg
+│   │   │           trubac-i-paznannie-fig-8.png
+│   │   │           trubac-i-paznannie-fig-9.png
+│   │   │           
+│   │   └───images
+│   │           issue-4-cover.jpg
+│   │           
+│   ├───issue-5
+│   │   └───images
+│   │           issue-5-cover.jpg
+│   │           
+│   └───issue-6
+│       ├───article-1
+│       │   │   index.html
+│       │   │   
+│       │   └───images
+│       │       │   article-1-figure-1.png
+│       │       │   article-1-figure-2.png
+│       │       │   article-1-figure-3.png
+│       │       │   article1-cover.png
+│       │       │   
+│       │       └───1x
+│       │               Asset 2.png
+│       │               Asset 3.png
+│       │               
+│       ├───article-2
+│       │   │   index.html
+│       │   │   
+│       │   └───images
+│       │           article-2-cover.png
+│       │           article-2-figure-1.png
+│       │           article-2-figure-2.png
+│       │           article-2-figure-3.png
+│       │           article-2-figure-4.png
+│       │           article-2-figure-5.png
+│       │           
+│       ├───editor-article-1
+│       │   │   index.html
+│       │   │   
+│       │   └───images
+│       │           ed-article-1-image-1.png
+│       │           
+│       └───images
+│               issue-6-cover.jpg
+│               
+├───_includes
+│       footer.html
+│       header.html
+│       sidebar.html
+│       
+├───_layouts
+│       article.html
+│       
+└───_posts
+        issue-4-article-4.md
+        

@@ -1,0 +1,13 @@
+<section class="issues">
+    <h2>НУМАРЫ</h2>
+    <div class="issues-grid">
+        {% for issue in site.data.issues %}
+        <div class="issue-card">
+            <img src="{{ issue.cover }}" alt="вокладка {{ issue.title }}">
+            <a href="{{ issue.pdf_url }}">
+                <h3>{{ issue.title }}</h3>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</section>

@@ -1,0 +1,14 @@
+<section class="news">
+    <h2>НАВІНЫ</h2>
+    {% for news in site.news %}
+    <div class="article-card">
+        <a href="{{ site.baseurl }}/news/{{news.slug}}">
+            <h3>{{ news.title }}</h3>
+        </a>
+        <p class="meta">
+            <span class="date">{{ news.date | date: "%Y-%m-%d" }}</span>
+        </p>
+    </div>      
+    {% endfor %}
+    
+</section>

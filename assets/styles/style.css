@@ -17,6 +17,7 @@ body {
     height: 100vh;
 }
 
+
 /* Full-width Header */
 header {
     background-color: #faf9f2;
@@ -72,6 +73,10 @@ main {
     padding-top: 40px; /* Adjust according to the header height */
 }
 
+button {
+
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -83,7 +88,7 @@ a:hover {
 }
 
 .article-container {
-    width: 60%; /* Adjust the width as needed, like 80% of the page */
+    width: 60vw; /* Adjust the width as needed, like 80% of the page */
     margin: 0 auto; /* Center the container */
     padding: 20px; /* Optional: Add some space inside the container */
 }
@@ -100,6 +105,29 @@ a:hover {
 .article-container a:hover {
   text-decoration: none; 
   color: #9356a2;
+}
+
+.article-container button {
+  background-color: #915f97;
+  padding: 10px 40px;
+  border-radius: 40px;
+  color: white;
+  font-size: 0.8em;
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: background ease 0.5s;
+}
+
+.article-container button:hover {
+  background-color: #64618f;
+}
+
+.article-image {
+  display: block;
+  max-width: 100%; /* Makes sure the image doesn't exceed the container's width */
+  height: auto; /* Keeps the image aspect ratio intact */
+  margin: 0 auto;
 }
 
 figure {
@@ -146,26 +174,18 @@ ul {
     margin-top: 5px;
 }
 
-.figure-title {
-    font-size: 0.8em;
-    font-weight: bold;
-    color: #000000;
-    margin: 0;
-    line-height: 1.2;
-}
-
-.figure-legend {
-    font-size: 0.8em;
-    color: #000000;
-    margin: 0;
-    line-height: 1.2;
-}
-
+.figure-title,
+.figure-legend, 
 .figure-info {
-    font-size: 0.8em;
-    color: #000000;
-    margin: 0;
-    line-height: 1.2;
+  display: block;
+  text-align: center;
+  font-size: 0.8em;
+  color: #000000;
+  line-height: 1.2;
+}
+
+.figure-title {
+  font-weight: bold;
 }
 
 article h3 {
@@ -180,7 +200,7 @@ article h3 {
 .homepage-layout {
     display: grid;
     padding: 10px 40px;
-    grid-template-columns: 4fr 1fr; /* New Issue takes 2x the space of Editor's Column */
+    grid-template-columns: 3fr 1fr; /* New Issue takes 2x the space of Editor's Column */
     gap: 0px; /* Space between the two sections */
 }
 
@@ -262,7 +282,6 @@ article h3 {
   flex-direction: column;
 }
 
-
 /* organising cards */
 .article-grid {
     display: grid;
@@ -315,6 +334,7 @@ article h3 {
 .editors-column {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 /* Button for toggling the nav */
@@ -519,4 +539,19 @@ article h3 {
     .article-container {
         width: 90vw; /* Adjust this to control how much space is left on the sides */
     }
+}
+
+.btn {
+  background-color: #7e5d88;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1000;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: auto auto;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }

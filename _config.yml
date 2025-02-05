@@ -1,0 +1,9 @@
+baseurl: "/pamylka"            # Leave empty for GitHub Pages
+title: "PAMYŁKA zine"
+collections:
+  articles:
+    output: true # Ensures HTML files are generated
+    permalink: /:path/ # Custom URL structure
+  news:
+    output: true # Ensures HTML files are generated
+    permalink: /:path/ # Custom URL structure

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="by">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: "PAMYLKA - навукова-паулярны зін па-беларуску" }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/style.css">
+</head>
+<body>
+    <!-- Integrate header through Jekyll's Liquid -->
+    {% include header.html %}
+
+      <!-- Integrate sidebar through Jekyll's Liquid -->
+    <div id="sidebar-placeholder"></div>
+        {% include sidebar.html %}
+        
+    <!-- Main Content with Container -->
+    <main>
+        <div class="article-container">
+            <article>
+                {{ content }}
+            </article>
+        </div>
+        
+    </main>
+
+    <div id="footer-placeholder"></div>
+            {% include footer.html %}
+    <script src="{{ site.baseurl }}/assets/scripts/header.js"></script>
+    <script src="{{ site.baseurl }}/assets/scripts/sidebar.js"></script>
+    
+
+</body>
+</html>
