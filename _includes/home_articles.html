@@ -4,7 +4,7 @@
         {% for article in site.articles %}
         <div class="article-card">
             <img src="{{ article.cover }}" alt="вокладка {{ article.title }}">
-            <a href="{{ article.url }}">
+            <a href="{{ site.baseurl }}{{ article.url }}">
                 <h3>{{ article.title }}</h3>
             </a>
             <p class="meta">

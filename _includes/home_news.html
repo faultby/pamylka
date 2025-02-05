@@ -2,7 +2,7 @@
     <h2>НАВІНЫ</h2>
     {% for news in site.news %}
     <div class="article-card">
-        <a href="{{ site.baseurl }}/news/{{news.slug}}">
+        <a href="{{ site.baseurl }}{{ news.url }}">
             <h3>{{ news.title }}</h3>
         </a>
         <p class="meta">
